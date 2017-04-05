@@ -4,21 +4,21 @@
 angular.module('app', []);
 
 //Application page directives
-	app.directive('homePage', function(){
+	angular.module('app').directive('homePage', function(){
 		return {
 			restrict: 'E',
 			templateUrl: 'templates/home-page.html'
 		};
 	});
 
-	app.directive('ourStory', function(){
+	angular.module('app').directive('ourStory', function(){
 		return {
 			restrict: 'E',
 			templateUrl: 'templates/our-story.html'
 		};
 	});
 
-	app.directive('ourWedding', function(){
+	angular.module('app').directive('ourWedding', function(){
 		return {
 			restrict: 'E',
 			templateUrl: 'templates/our-wedding.html'
@@ -26,28 +26,28 @@ angular.module('app', []);
 	});
 
 
-	app.directive('travelLogistics', function(){
+	angular.module('app').directive('travelLogistics', function(){
 		return {
 			restrict: 'E',
 			templateUrl: 'templates/travel-logistics.html'
 		};
 	});
 
-	app.directive('whyMadison', function(){
+	angular.module('app').directive('whyMadison', function(){
 		return {
 			restrict: 'E',
 			templateUrl: 'templates/why-madison.html'
 		};
 	});
 
-	app.directive('ourRegistries', function(){
+	angular.module('app').directive('ourRegistries', function(){
 		return {
 			restrict: 'E',
 			templateUrl: 'templates/our-registries.html'
 		};
 	});
 
-	app.directive('galleryPage', function(){
+	angular.module('app').directive('galleryPage', function(){
 		return {
 			restrict: 'E',
 			templateUrl: 'templates/gallery-page.html'
@@ -55,7 +55,7 @@ angular.module('app', []);
 	});
 
 //Controller manages viewing array of Madison activities
-app.controller('ActivityController', function(){
+angular.module('app').controller('ActivityController', function(){
 	this.list = madison;
 	
 });
@@ -108,7 +108,7 @@ var madison = [{
 }]}];
 
 //Controller manages viewing array of Gallery Photos
-app.controller('GalleryController', function(){
+angular.module('app').controller('GalleryController', function(){
 	this.photos = gallery;
 });
 
