@@ -12,10 +12,11 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.js"></script>
 		<!--Javascripts-->
 		<script type = "text/javascript" src="javascript/app.js"></script>
-	     <script type="text/javascript" src="javascript/data.js"></script>
-	     <script type="text/javascript" src="javascript/timeline.js"></script>
-	     <script type="text/javascript" src="javascript/backtrack.js"></script>
+	    <script type="text/javascript" src="javascript/data.js"></script>
+	    <script type="text/javascript" src="javascript/timeline.js"></script>
+	    <script type="text/javascript" src="javascript/backtrack.js"></script>
 	</head> 
+	
 	<body>
 		<div class="container-fluid" ng-controller="PageController as page">
 			<!--Site navigation bar -->
@@ -53,5 +54,8 @@
 			<our-registries ng-show="page.isSet(6)"></our-registries>
 			<gallery-page ng-show="page.isSet(7)"></gallery-page>
 		</div>
+
+		<!--Controllers -->
+		<script src="javascript/controllers/page-controller.js"></script>
 	</body>
 </html>
