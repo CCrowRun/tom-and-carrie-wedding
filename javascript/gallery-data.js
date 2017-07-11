@@ -25,12 +25,12 @@ var gallery = [{
 	location: 'Downtown Madison',
 	description: 'Halloween - the Dark Nighty Night and Man of Steal hit the town!'
 }, {
-	src: 'images/gallery/Tarrie-07-15.JPG',
+	src: 'images/gallery/Tarrie-07-15.jpg',
 	date: 'July 2015',
 	location: 'Antwerp, Belgium',
 	description: 'Us being cute in the Antwerp zoo!'
 }, {
-	src: 'images/gallery/Tarrie-01-16.jpeg',
+	src: 'images/gallery/Tarrie-01-16.jpg',
 	date: 'January 2016',
 	location: 'Vintage Bar and Grill',
 	description: 'Us enjoying a five course meal with friends at the Vintage bar and Grille in Madison'

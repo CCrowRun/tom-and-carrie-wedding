@@ -24,7 +24,7 @@ var madison = [{
 	category: 'Food',
 	items: [{
 		name: 'Tipsy Cow',
-		description: 'The best burger in Madison - not to mention their Bulgogi fries. Also boasts one of the largest local tap lists.',
+		description: 'Great burgers and local beers - and be on the lookout for their Korean BBQ fries and goat cheese curds.',
 		link: 'http://www.tipsycowmadison.com/',
 		picture: "images.jpg",
 		map: 'https://www.google.com/maps/place/Tipsy+Cow/@43.0747897,-89.3837106,17z/data=!3m1!4b1!4m5!3m4!1s0x8806533fa1794d05:0x8ed80142620cbd69!8m2!3d43.0747897!4d-89.3815166'
@@ -33,7 +33,7 @@ var madison = [{
 	category: 'Drinks',
 	items: [{
 		name: 'Hop Cat',
-		description: 'Hopcat boasts 200 taps, and includes many of the Midwest favorites. Look for Surly, New Glarus, and Central Waters in particular. Their crack fries were voted best in the nation.',
+		description: 'Hopcat boasts 130 taps, and includes many of the Midwest favorites. Look for Surly, New Glarus, and Central Waters in particular. Their crack fries were voted best in the nation.',
 		link: 'https://hopcat.com/madison',
 		picture: "images.jpg",
 		map: 'https://www.google.com/maps/place/HopCat/@43.07499,-89.393844,17z/data=!3m1!4b1!4m5!3m4!1s0x88065336368fdd39:0xe512fb6de3e4776b!8m2!3d43.07499!4d-89.39165'
